@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+  .coverage__content,
+  .contact__content {
+    grid-template-columns: 1fr;
+  }
+  .hero__floating-card {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 18px;
+  }
+}
+
+@media (max-width: 880px) {
+  .nav {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    display: grid;
+    place-items: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 40px;
+  }
+
+  .nav a {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .nav.is-open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav__close {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+  }
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding: 120px 0 90px;
+    min-height: 70vh;
+  }
+
+  .hero__content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__text {
+    order: 1;
+  }
+
+  .hero__image {
+    order: 2;
+    margin-top: 10px;
+    max-width: 100%;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__highlights {
+    flex-direction: column;
+  }
+
+  .services__grid,
+  .steps__grid,
+  .benefits__grid {
+    grid-template-columns: 1fr;
+  }
+
+
+  .testimonial {
+    min-width: calc(100vw - 80px);
+  }
+
+  .carousel__controls {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 0 18px;
+  }
+
+  .header__content {
+    height: 66px;
+  }
+
+  .footer__content {
+    text-align: center;
+    justify-items: center;
+  }
+
+  .footer__brand,
+  .footer__links,
+  .footer__contact {
+    text-align: center;
+  }
+
+  .logo img {
+    width: 100px;
+    max-height: 54px;
+    padding: 6px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .contact__actions .btn {
+    width: auto;
+  }
+
+  .float-btn {
+    width: 52px;
+    height: 52px;
+    right: 14px;
+  }
+
+  .float-btn--whatsapp { bottom: 84px; }
+  .float-btn--instagram { bottom: 18px; }
+
+  .coverage__map iframe {
+    pointer-events: none;
+  }
+}
