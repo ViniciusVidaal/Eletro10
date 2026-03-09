@@ -143,8 +143,7 @@
     right: 14px;
   }
 
-  .float-btn--whatsapp { bottom: 84px; }
-  .float-btn--instagram { bottom: 18px; }
+  .float-btn--whatsapp { bottom: 18px; }
 
   .coverage__map iframe {
     pointer-events: none;

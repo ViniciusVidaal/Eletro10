@@ -655,7 +655,7 @@ a {
 }
 
 .float-btn--whatsapp {
-  bottom: 90px;
+  bottom: 22px;
   background: #25d366;
 }
 
@@ -665,10 +665,6 @@ a {
   object-fit: contain;
 }
 
-.float-btn--instagram {
-  bottom: 22px;
-  background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-}
 .nav ul li a {
   color: #ffffff;           /* cor normal (muda se quiser) */
   text-decoration: none;
